@@ -33,31 +33,38 @@ menu_settings:
   menu_items:
     - title: 'Home'
       url: /
-    - title: 'Features'
-      url: '/features'
-    - title: Pricing
-      url: /pricing        
-    - title: 'Blog'
-      submenu_items:
-      - title: Blog
-        url: /blog
-        icon: ni-books text-primary
-      - title: Narrow Grid Example
-        url: /blog-narrow-example
-        icon: ni-align-center text-success
-      - title: Wide Grid Example
-        url: /blog-grid-example
-        icon: ni-image text-info
-      - title: List Example
-        url: /blog-list-example
-        icon: ni-bullet-list-67 text-default    
     - title: 'About'
       url: '/about'
+    - title: 'Calendar'
+      submenu_items:
+        - title: Calendar of Events
+          url: '/calendar'
+          icon: ni-calendar-grid-58 text-primary
+        - title: Timesheet
+            url: 'https://www.trackitforward.com/site/smiling-hogshead-ranch'
+            icon: ni-circle-08 text-primary
+    - title: Compost
+      url: '/compost'
+      icon: ni-trash-can-grid-58 text-primary
+    - title: Visit
+        url: '/groups'
+    - title: Make a Donation
+      url: /donation
+      icon: ni-present
+    - title: Become a Member
+      submenu_items:
+      - title: Membership Policy
+        url: /policy
+        icon: ni-file-text text-primary
+      - title: Renew your Membership
+          url: /join
+          icon: ni-badge-text text-primary
     - title: 'Contact'
       url: '/contact'
 
 footer_settings:
-  footer_tagline: Argon & Jekyll, together at last.
+  footer_tagline:
+  mailing_address: '25-30 Skillman Avenue, Long Island City, NY 11101'
 
 contact_settings:
   form_action: 'https://formspree.io/hello@jekyllthemes.io'
@@ -66,29 +73,16 @@ contact_settings:
   send_button_text: 'Send Message'
 
 social_settings:
-  facebook_url: 'https://www.facebook.com/jekyllthemes/'
-  twitter_url: 'https://twitter.com/jekyllthemesio'
-  instagram_url: 'https://twitter.com/jekyllthemesio'
-  youtube_url: ''
-  vimeo_url: ''
-  pinterest_url: ''
-  tumblr_url: ''
-  dribbble_url: ''
-  behance_url: ''
+  facebook_url: 'https://www.facebook.com/SmilingHogsheadRanch'
+  twitter_url: 'https://twitter.com/smilinghogshead'
+  instagram_url: 'https://www.instagram.com/smilinghogsheadranch/'
+  youtube_url: 'https://www.youtube.com/user/SmilingHogsheadRanch'
   github_url: 'https://twitter.com/jekyllthemesio'
-  reddit_url: ''
-  linkedin_url: ''
 
 authors:
-  tom:
-    name: Tom
+  helen:
+    name: Helen
     picture: /assets/img/faces/team-1.jpg
-  jane:
-    name: Jane
-    picture: /assets/img/faces/team-4.jpg
-  michael:
-    name: Michael
-    picture: /assets/img/faces/michael.jpg
 
 advanced_settings:
   analytics_code: 
