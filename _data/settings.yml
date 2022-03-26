@@ -51,7 +51,7 @@ menu_settings:
         url: /policy
         icon: ni-file-text text-primary
       - title: Renew your Membership
-        url: /join
+        url: /membership
         icon: ni-badge-text text-primary
     - title: 'Contact'
       url: '/contact'
