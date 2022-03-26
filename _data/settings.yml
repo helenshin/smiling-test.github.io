@@ -35,19 +35,13 @@ menu_settings:
       url: /
     - title: 'About'
       url: '/about'
-    - title: 'Calendar'
-      submenu_items:
-        - title: Calendar of Events
-          url: '/calendar'
-          icon: ni-calendar-grid-58 text-primary
-        - title: Timesheet
-            url: 'https://www.trackitforward.com/site/smiling-hogshead-ranch'
-            icon: ni-circle-08 text-primary
     - title: Compost
       url: '/compost'
       icon: ni-trash-can-grid-58 text-primary
+    - title: Calendar
+      url: '/calendar.html'
     - title: Visit
-        url: '/groups'
+      url: '/groups'
     - title: Make a Donation
       url: /donation
       icon: ni-present
@@ -57,8 +51,8 @@ menu_settings:
         url: /policy
         icon: ni-file-text text-primary
       - title: Renew your Membership
-          url: /join
-          icon: ni-badge-text text-primary
+        url: /join
+        icon: ni-badge-text text-primary
     - title: 'Contact'
       url: '/contact'
 
@@ -77,7 +71,7 @@ social_settings:
   twitter_url: 'https://twitter.com/smilinghogshead'
   instagram_url: 'https://www.instagram.com/smilinghogsheadranch/'
   youtube_url: 'https://www.youtube.com/user/SmilingHogsheadRanch'
-  github_url: 'https://twitter.com/jekyllthemesio'
+  #github_url: 'TODO: codebase here'
 
 authors:
   helen:
